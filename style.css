@@ -1,0 +1,55 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+    background-color: antiquewhite;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.btn-fill{
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color:white;
+}
+.container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+.site-init{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+.navigation a{
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/*main*/
+.dish-month-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+}
+.price-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}

@@ -1,0 +1,124 @@
+.reservation-wrapper{
+    background-color: blue;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.reservation-header{
+    text-align: center;
+}
+.reservation-form{
+    padding: 30px;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input,select{
+    padding: 5px;
+    border: 1px solid blue;
+    font-size: 18px;
+    width: 60%;
+}
+label{
+    width: 20%;
+}
+.payment-main {
+    width: min(100% - 32px, 680px);
+    margin: 36px auto;
+}
+
+.payment-main h2 {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.payment-main > p {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.payment-form {
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 12%);
+}
+
+.payment-form fieldset {
+    display: grid;
+    gap: 10px;
+    margin: 0 0 22px;
+    padding: 18px;
+    border: 1px solid #ccd8d3;
+    border-radius: 8px;
+}
+
+.payment-form legend {
+    padding: 0 8px;
+    color: #174c43;
+    font-weight: bold;
+}
+
+.payment-form label {
+    font-weight: 600;
+}
+
+.payment-form input {
+    width: 100%;
+    min-height: 42px;
+    padding: 10px 12px;
+    border: 1px solid #aebdb7;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.payment-form input:focus {
+    border-color: #176b5b;
+    outline: 2px solid rgb(23 107 91 / 20%);
+}
+
+.payment-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.payment-row > div {
+    display: grid;
+    align-content: start;
+    gap: 10px;
+}
+
+.payment-form small {
+    color: #52636a;
+}
+
+.payment-form button {
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    border-radius: 6px;
+    background: #176b5b;
+    color: #fff;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.payment-form button:hover {
+    background: #124c41;
+}
+
+@media (max-width: 520px) {
+    .payment-form {
+        padding: 16px;
+    }
+
+    .payment-row {
+        grid-template-columns: 1fr;
+    }
+}

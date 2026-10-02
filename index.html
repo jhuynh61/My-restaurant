@@ -3,12 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Italian Restaurant</title>
 </head>
 <body>
-    <header>
-        <h1>My Restaurant</h1>
+    <header class="header-init">
+        <h1>Welcome to the Italian Restaurant</h1>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="reservation.html">Reservations</a>
+            <a href="createReservation.html">Create a Reservation</a>
+        </nav>
     </header>
-    
+
+    <main>
+        <div class="dish-month-container">
+            <img src="salad.jpg" alt="qinua salad">
+            <div class="dish-month-text">
+                <h2>Healthy Salad</h2>
+                <p>A hearty mix of quinoa, roasted sweet potatoes, greens, red onion, dried cranberries, crunchy pumpkin seeds, and creamy feta cheese. It’s sweet, savory, and filling, with plenty of color and texture in every bite.</p>
+
+                <div class="price-selection">
+                    <p>$39.99</p>
+                    <a class="btn-fill" href="#">Order now!</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+
+
+        <!-- start of the row of dishes -->
+
+
+        <div class="dishes-row">
+
+            <div class="dishes-container">
+                <img src="loadedpotatoes.jpeg" alt="loaded potatoes">
+                <div>
+                    <h3>Loaded Potatoes</h3>
+                    <p>Crispy potato skins filled with melted cheddar cheese and smoky bacon, served with cool sour cream and fresh green onions.</p>
+
+                    <div class="price-selection">
+                    <p>$9.99</p>
+                    <a class="btn-fill" href="#">Order now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dishes-container">
+                <img src="gardenpizza.jpeg" alt="burrata pizza">
+                <div>
+                    <h3>Pizza Burrata</h3>
+                    <p>A hand-tossed pizza topped with tomato sauce, melted cheese, fresh greens, creamy burrata, and a touch of herb pesto.</p>
+
+                    <div class="price-selection">
+                    <p>$14.99</p>
+                    <a class="btn-fill" href="#">Order now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dishes-container">
+                <img src="strawberryfrenchtoast.jpeg" alt="french toast">
+                <div>
+                    <h3>French Toast</h3>
+                    <p>Golden French toast served with fresh strawberries and whipped cream for a sweet and simple breakfast favorite.</p>
+
+                    <div class="price-selection">
+                    <p>$8.99</p>
+                    <a class="btn-fill" href="#">Order now!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+    </main>
+
+        <footer>
+        <h2>Dine in. Dine-out. Which ever you choose, you're a Huynh'er</h2>
+        <p>Would you dine-out? I'd dine-out...</p>
+        <p class="copyright">
+            &copy; 2026 John Huynh
+        </p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Huynh's Restaurant</title>
+</head>
+<body>
+    <header class="header-init">
+        <h1>Welcome to the Huynh'ers</h1>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="reservation.html">Reservations</a>
+            <a href="createReservation.html">Create a Reservation</a>
+        </nav>
+    </header>
+
+    <main>
+        
+    </main>
+
+    <h2 class="todays-date"><span id="currentDate"></span>
+    <script>
+        const today = new Date ();
+        document.getElementById("currentDate").textContent =today.toLocaleDateString();
+    </script>
+    </h2>
+    <table>
+        <Thead>
+            <tr>
+                <th colspan="5">Reservations</th>
+            </tr>
+            <tr>
+                <th>Guest Name</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Party Size</th>
+                <th>Status</th>
+            </tr>
+        </Thead>
+<tbody>
+    <tr>
+        <td>Emily Carter</td>
+        <td>09/25/2026</td>
+        <td>5:30 PM</td>
+        <td>4</td>
+        <td class="confirmed">Confirmed</td>
+    </tr>
+    <tr>
+        <td>Michael Nguyen</td>
+        <td>09/25/2026</td>
+        <td>6:45 PM</td>
+        <td>2</td>
+        <td class="confirmed">Confirmed</td>
+    </tr>
+    <tr>
+        <td>Amara Patel</td>
+        <td>09/25/2026</td>
+        <td>8:00 PM</td>
+        <td>6</td>
+        <td class="cancelled">Cancelled</td>
+    </tr>
+    <tr>
+        <td>Lucas Bennett</td>
+        <td>09/26/2026</td>
+        <td>6:00 PM</td>
+        <td>3</td>
+        <td class="confirmed">Confirmed</td>
+    </tr>
+    <tr>
+        <td>Sofia Ramirez</td>
+        <td>09/27/2026</td>
+        <td>7:30 PM</td>
+        <td>5</td>
+        <td class="pending">Pending</td>
+    </tr>
+    <tr>
+        <td>Oliver Kim</td>
+        <td>09/28/2026</td>
+        <td>5:45 PM</td>
+        <td>2</td>
+        <td class="confirmed">Confirmed</td>
+    </tr>
+</tbody>
+    </table>
+        <footer>
+        <h2>Dine in. Dine-out. Which ever you choose, you're a Huynh'er</h2>
+        <p>Would you dine-out? I'd dine-out...</p>
+        <p class="copyright">
+            &copy; 2026 Thai Huynh | Paw-fectly Executed
+        </p>
+    </footer>
+</body>
+</html>
